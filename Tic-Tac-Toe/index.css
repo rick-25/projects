@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+table, td, tr{
+    border: 2px solid black;
+}
+table {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px 0 rgb(179, 171, 171);
+}
+
+
+
+div.box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200px);
+
+    color: black;
+    background-color: white;
+
+    border: 2px solid black;
+    border-radius: 0;
+
+    font-size: 1.2em;
+
+    padding: 5px 10px;
+}
+button:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+button:active {
+    color: white;
+    background-color: black;
+}
